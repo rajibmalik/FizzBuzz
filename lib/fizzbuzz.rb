@@ -1,3 +1,5 @@
 def fizzbuzz(number)
-    'fizz'
+    if number % 3 == 0 
+        puts "fizz"
+    end 
 end 
